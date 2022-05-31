@@ -26,7 +26,7 @@ pip install streamlit-pretty-notification-box
 
 
 ```
-from streamlit_custom_notification_box import custom_notification_box
+from pretty_notification_box import notification_box
 st.subheader("Component with constant args")
 
 styles = {'material-icons':{'color': 'red'},

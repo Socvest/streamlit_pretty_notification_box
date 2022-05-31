@@ -5,7 +5,7 @@ import {
 } from "streamlit-component-lib"
 import React, { ReactNode } from "react"
 import "./icon.css"
-import "./style2.css"
+import "./style.css"
 import { style } from 'glamor';
 
 

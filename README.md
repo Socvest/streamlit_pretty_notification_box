@@ -1,0 +1,2 @@
+# streamlit_pretty_notification_box
+Pretty notification box

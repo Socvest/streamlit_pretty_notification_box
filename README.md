@@ -4,7 +4,7 @@ An alternative to its [sibling](https://github.com/Socvest/streamlit-custom-noti
 If you need a notification bar with the ability to redirect users to an external site (optional) and to pop up and be able to close it out, then give this a try. 
 Its possible to change the colour, the image to correspond to the type of notification of your choice (warning, information, success etc). The image below is an example of information:
 
-![custom-notification-box.png](./img/custom-notification-box.png) 
+![pretty.png](./img/pretty.png) 
 
 Its built on the [streamlit custom components typescript template](https://github.com/streamlit/component-template)
 
@@ -37,5 +37,6 @@ styles = {'material-icons':{'color': 'red'},
           'external-link': {'',''},
           'close-button': {'',''}}
 
-custom_notification_box(icon='info', textDisplay='We are almost done with your registration...', externalLink='more info', url='#', styles=styles, key="foo")
+notification_box(icon='warning', title='Warning', textDisplay='Water levels are high, be careful', externalLink='view more details',
+                                url='https://www.cdc.gov/healthywater', styles=None, key='foo')
 ```
